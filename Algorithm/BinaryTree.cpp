@@ -1,7 +1,9 @@
 /*
  * It's a level order traversal of a binary tree
  * if the two givn nodes are cousin or not in binary tree, we can check it by this code
- * two nodes are cousin if they are in same depth in a tree but their parents are different */
+ * two nodes are cousin if they are in same depth in a tree but their parents are different
+ * Time Complexity O(n) where n is the number of nodes
+ * Space complexity O(1)->best case and O(n)->worst/AVG case because of using Queue */
 
 #include<bits/stdc++.h>
 using namespace std;
